@@ -1,0 +1,509 @@
+
+.tabla-datos {
+    display: block;
+    min-width: auto;
+    width: auto !important;
+    overflow: scroll;
+    border-collapse: collapse;
+    background: #fff;
+    font-size: 14px;
+    line-height: 20px;
+    border-top: 1px solid #e9e9e9;
+    max-width: 696px;
+  }
+
+  @media only screen and (min-width: 768px) {
+    .tabla-datos {
+      font-size: 14px;
+    }
+  }
+
+
+
+
+
+  @media only screen and (min-width: 1150px) {
+    .module-type-table table,
+    .data-table,
+    .tabla-datos {
+      font-size: 14px;
+    }
+  }
+  @media only screen and (min-width: 768px) {
+    .module-type-table table,
+    .data-table,
+    .tabla-datos {
+      line-height: 20px;
+    }
+  }
+  @media only screen and (min-width: 1150px) {
+    .module-type-table table,
+    .data-table,
+    .tabla-datos {
+      line-height: 20px;
+    }
+  }
+  @media only screen and (min-width: 1024px) {
+    .module-type-table table,
+    .data-table,
+    .tabla-datos {
+      display: table;
+      width: auto !important;
+      overflow: visible;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .module-type-table table:before,
+    .data-table:before,
+    .tabla-datos:before {
+      display: none;
+    }
+  }
+  .module-type-table table strong,
+  .data-table strong,
+  .tabla-datos strong {
+    font-weight: 700;
+  }
+  .module-type-table table tbody,
+  .data-table tbody,
+  .tabla-datos tbody {
+    width: 100%;
+  }
+  .module-type-table table caption,
+  .data-table caption,
+  .tabla-datos caption {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: Tofino, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: bold;
+    padding: 24px 8px 12px;
+  }
+  @media only screen and (min-width: 768px) {
+    .module-type-table table caption,
+    .data-table caption,
+    .tabla-datos caption {
+      font-size: 16px;
+      line-height: 24px;
+    }
+  }
+  @media only screen and (min-width: 1150px) {
+    .module-type-table table caption,
+    .data-table caption,
+    .tabla-datos caption {
+      font-size: 16px;
+      line-height: 24px;
+    }
+  }
+  @media only screen and (min-width: 768px) {
+    .module-type-table table caption,
+    .data-table caption,
+    .tabla-datos caption {
+      padding: 12px 12px;
+    }
+  }
+  @media only screen and (min-width: 768px) {
+    .module-type-table table caption,
+    .data-table caption,
+    .tabla-datos caption {
+      padding: 12px 12px;
+    }
+  }
+  .module-type-table table th,
+  .data-table th,
+  .tabla-datos th,
+  .module-type-table table td,
+  .data-table td,
+  .tabla-datos td {
+    padding: 12px 8px;
+  }
+  @media only screen and (min-width: 768px) {
+    .module-type-table table th,
+    .data-table th,
+    .tabla-datos th,
+    .module-type-table table td,
+    .data-table td,
+    .tabla-datos td {
+      padding: 12px 12px;
+    }
+  }
+  .module-type-table table th p,
+  .data-table th p,
+  .tabla-datos th p,
+  .module-type-table table td p,
+  .data-table td p,
+  .tabla-datos td p {
+    margin: 0;
+  }
+  @media only screen and (min-width: 768px) {
+    .module-type-table table th p,
+    .data-table th p,
+    .tabla-datos th p,
+    .module-type-table table td p,
+    .data-table td p,
+    .tabla-datos td p {
+      margin: 0;
+    }
+  }
+  .module-type-table table thead,
+  .data-table thead,
+  .tabla-datos thead {
+    position: -webkit-sticky;
+    position: -moz-sticky;
+    position: -ms-sticky;
+    position: -o-sticky;
+    position: sticky;
+    top: 0px;
+  }
+  .module-type-table table th,
+  .data-table th,
+  .tabla-datos th {
+    font-size: 13px;
+    line-height: 16px;
+    text-transform: uppercase;
+    font-weight: normal;
+  }
+  @media only screen and (min-width: 768px) {
+    .module-type-table table th,
+    .data-table th,
+    .tabla-datos th {
+      font-size: 13px;
+    }
+  }
+  @media only screen and (min-width: 1150px) {
+    .module-type-table table th,
+    .data-table th,
+    .tabla-datos th {
+      font-size: 13px;
+    }
+  }
+  @media only screen and (min-width: 768px) {
+    .module-type-table table th,
+    .data-table th,
+    .tabla-datos th {
+      line-height: 16px;
+    }
+  }
+  @media only screen and (min-width: 1024px) {
+    .module-type-table table th,
+    .data-table th,
+    .tabla-datos th {
+      line-height: 16px;
+    }
+  }
+  .module-type-table table thead th,
+  .data-table thead th,
+  .tabla-datos thead th {
+    vertical-align: bottom;
+    border-bottom: 2px solid #e9e9e9;
+    background: #fff;
+  }
+  .module-type-table table td,
+  .data-table td,
+  .tabla-datos td,
+  .module-type-table table tbody th,
+  .data-table tbody th,
+  .tabla-datos tbody th {
+    border-bottom: 1px solid #e9e9e9;
+  }
+  .module-type-table table tbody th,
+  .data-table tbody th,
+  .tabla-datos tbody th,
+  .module-type-table table tbody th p,
+  .data-table tbody th p,
+  .tabla-datos tbody th p,
+  .module-type-table table tbody th strong,
+  .data-table tbody th strong,
+  .tabla-datos tbody th strong {
+    line-height: 25px;
+  }
+  .article-asset-table .tabla-datos {
+    min-width: 100%;
+    max-width: 100%;
+  }
+  @media only screen and (min-width: 1024px) {
+    .custom .tabla-datos {
+      display: block;
+    }
+  }
+  .module-type-table.module-size-big table:before,
+  .supertable:before,
+  .tabla-datos:before {
+    content: "Desliza para ver mÃ¡s Â»";
+    font-weight: normal;
+    font-style: normal;
+    text-transform: none;
+    font-size: 14px;
+    color: #707070;
+    line-height: 20px;
+    font-size: 13px;
+    line-height: 16px;
+  }
+  @media only screen and (min-width: 768px) {
+    .module-type-table.module-size-big table:before,
+    .supertable:before,
+    .tabla-datos:before {
+      font-size: 14px;
+    }
+  }
+  @media only screen and (min-width: 1150px) {
+    .module-type-table.module-size-big table:before,
+    .supertable:before,
+    .tabla-datos:before {
+      font-size: 14px;
+    }
+  }
+  @media only screen and (min-width: 768px) {
+    .module-type-table.module-size-big table:before,
+    .supertable:before,
+    .tabla-datos:before {
+      line-height: 20px;
+    }
+  }
+  @media only screen and (min-width: 1150px) {
+    .module-type-table.module-size-big table:before,
+    .supertable:before,
+    .tabla-datos:before {
+      line-height: 20px;
+    }
+  }
+  @media only screen and (min-width: 768px) {
+    .module-type-table.module-size-big table:before,
+    .supertable:before,
+    .tabla-datos:before {
+      font-size: 14px;
+    }
+  }
+  @media only screen and (min-width: 1150px) {
+    .module-type-table.module-size-big table:before,
+    .supertable:before,
+    .tabla-datos:before {
+      font-size: 14px;
+    }
+  }
+  @media only screen and (min-width: 768px) {
+    .module-type-table.module-size-big table:before,
+    .supertable:before,
+    .tabla-datos:before {
+      line-height: 20px;
+    }
+  }
+  @media only screen and (min-width: 768px) {
+    .module-type-table.module-size-big table:before,
+    .supertable:before,
+    .tabla-datos:before {
+      font-size: 13px;
+    }
+  }
+  @media only screen and (min-width: 1150px) {
+    .module-type-table.module-size-big table:before,
+    .supertable:before,
+    .tabla-datos:before {
+      font-size: 13px;
+    }
+  }
+  @media only screen and (min-width: 768px) {
+    .module-type-table.module-size-big table:before,
+    .supertable:before,
+    .tabla-datos:before {
+      line-height: 16px;
+    }
+  }
+  @media only screen and (min-width: 1024px) {
+    .module-type-table.module-size-big table:before,
+    .supertable:before,
+    .tabla-datos:before {
+      line-height: 16px;
+    }
+  }
+  @media only screen and (min-width: 768px) {
+    .module-type-table.module-size-big table:before,
+    .supertable:before,
+    .tabla-datos:before {
+      content: "";
+      margin: 0;
+      padding: 0;
+      border: none;
+    }
+  }
+  .module-type-table.module-size-big table:before,
+  .supertable:before,
+  .tabla-datos:before {
+    display: inline-block;
+    padding: 12px 8px 0;
+  }
+  .data-table .article-asset-small,
+.tabla-datos .article-asset-small,
+.data-table .article-asset-normal,
+.tabla-datos .article-asset-normal,
+.data-table .article-asset-big,
+.tabla-datos .article-asset-big {
+  margin: 0;
+}
+@media only screen and (min-width: 768px) {
+  .data-table .article-asset-small,
+  .tabla-datos .article-asset-small,
+  .data-table .article-asset-normal,
+  .tabla-datos .article-asset-normal,
+  .data-table .article-asset-big,
+  .tabla-datos .article-asset-big {
+    margin: 0;
+    width: auto;
+    max-width: auto;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .data-table .article-asset-small,
+  .tabla-datos .article-asset-small,
+  .data-table .article-asset-normal,
+  .tabla-datos .article-asset-normal,
+  .data-table .article-asset-big,
+  .tabla-datos .article-asset-big {
+    margin: 0;
+    max-width: auto;
+  }
+}
+@media only screen and (min-width: 1600px) {
+  .data-table .article-asset-small,
+  .tabla-datos .article-asset-small,
+  .data-table .article-asset-normal,
+  .tabla-datos .article-asset-normal,
+  .data-table .article-asset-big,
+  .tabla-datos .article-asset-big {
+    max-width: auto;
+  }
+}
+.module-type-table .module-type-image img,
+.data-table .article-asset-image img,
+.tabla-datos .article-asset-image img {
+  width: auto;
+  margin: 0;
+  max-width: 100%;
+}
+@media only screen and (min-width: 768px) {
+  .module-type-table .module-type-image img,
+  .data-table .article-asset-image img,
+  .tabla-datos .article-asset-image img {
+    width: auto;
+  }
+}
+.tabla-datos:before {
+    display: none;
+  }
+  .blob .tabla-datos .article-asset-normal img.centro,
+  .blob .tabla-datos .article-asset-normal img.centro_sinmarco {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    max-width: 100%;
+  }
+  .tabla-datos thead th.highlight-row {
+    background: #FDFDA9;
+    position: relative;
+  }
+  .highlight-row:before,
+  .tabla-datos thead th.highlight-row:before,
+  .highlight-row:after,
+  .tabla-datos thead th.highlight-row:after {
+    content: '';
+    height: 0;
+    border-top: 1px dotted #D1D100;
+    position: absolute;
+    left: 0;
+    right: 0;
+  }
+  .highlight-row:before,
+  .tabla-datos thead th.highlight-row:before {
+    top: 0;
+  }
+  .highlight-row:after,
+  .tabla-datos thead th.highlight-row:after {
+    bottom: 0;
+  }
+  .highlight-row:first-child,
+  .tabla-datos thead th.highlight-row:first-child {
+    border-left: 1px dotted #D1D100;
+  }
+  .highlight-row:last-child,
+  .tabla-datos thead th.highlight-row:last-child {
+    border-right: 1px dotted #D1D100;
+  }
+  .tabla-datos td.highlight-column-end {
+    border-bottom: 1px dotted #D1D100;
+  }
+  .tabla-datos thead th.highlight-column {
+    background: #FDFDA9;
+    border-top: 1px dotted #D1D100;
+  }
+  .align-right {
+    text-align: right;
+  }
+  .tabla-datos th,
+  .blob .tabla-datos th {
+    font-weight: 700;
+  }
+  .tabla-datos th p,
+  .blob .tabla-datos th p {
+    font-size: 13px;
+    line-height: 16px;
+    font-weight: 700;
+    line-height: 25px;
+  }
+  @media only screen and (min-width: 768px) {
+    .tabla-datos th p,
+    .blob .tabla-datos th p {
+      font-size: 13px;
+    }
+  }
+  @media only screen and (min-width: 1150px) {
+    .tabla-datos th p,
+    .blob .tabla-datos th p {
+      font-size: 13px;
+    }
+  }
+  @media only screen and (min-width: 768px) {
+    .tabla-datos th p,
+    .blob .tabla-datos th p {
+      line-height: 16px;
+    }
+  }
+  @media only screen and (min-width: 1024px) {
+    .tabla-datos th p,
+    .blob .tabla-datos th p {
+      line-height: 16px;
+    }
+  }
+  @media only screen and (min-width: 1024px) {
+    .tabla-datos th p,
+    .blob .tabla-datos th p {
+      line-height: 25px;
+    }
+  }
+.tabla-datos .article-asset-embed-giphy .asset-content > div:first-child,
+.module-type-table .module-type-giphy .module-content > div:first-child {
+  min-width: 300px;
+}
+.tabla-datos {
+    text-align: left;
+  }
+  .article-asset-table.m-hr-scroll .tabla-datos {
+    margin-bottom: 4px;
+  }
+  @media only screen and (min-width: 1024px) {
+    .article-asset-table.m-hr-scroll .tabla-datos {
+      margin-bottom: 16px;
+    }
+  }
+  .custom .article-asset-table .tabla-datos td {
+    word-break: break-word;
+  }
+  @media only screen and (min-width: 1024px) {
+    .custom .tabla-datos {
+      display: table;
+      min-width: auto;
+    }
+  }
